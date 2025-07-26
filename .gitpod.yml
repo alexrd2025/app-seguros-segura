@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Instalar dependencias
+    init: flutter pub get
+    command: flutter analyze
+
+ports:
+  - port: 8000
+    onOpen: open-preview
