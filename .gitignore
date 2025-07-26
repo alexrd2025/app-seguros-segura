@@ -1,0 +1,5 @@
+*\.trashed*
+*.orig
+*.tmp
+*.swp
+.DS_Store
